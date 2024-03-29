@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Default Starter</title>
-    <style>
-      @import url("https://fonts.google.com/specimen/Montserrat");
-      @import url("https://fonts.google.com/specimen/Fraunces");
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css" />
     <!-- main css -->
@@ -16,21 +24,31 @@
   <body>
     <div class="main-container">
       <img class="img" src="./images/image-product-mobile.jpg" alt="" />
-      <header class="header">
-        <p>Perfume</p>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-      </header>
-      <div class="main-text">
-        <p>
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="price">
-          <h2>$149.99</h2>
-          <p>$169.99</p>
+      <img
+        class="img-desktop"
+        src="./images/image-product-desktop.jpg"
+        alt=""
+      />
+      <div class="side-content">
+        <header class="header">
+          <p>Perfume</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+        </header>
+        <div class="main-text">
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="price">
+            <h2>$149.99</h2>
+            <p>$169.99</p>
+          </div>
+          <button type="button" class="btn btn-block">
+            <img class="btn-img" src="./images/icon-cart.svg" alt="" />Add to
+            Cart
+          </button>
         </div>
       </div>
-      <button type="button" class="btn btn-block">Add to Cart</button>
     </div>
   </body>
 </html>
